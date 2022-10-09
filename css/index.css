@@ -2,13 +2,23 @@ body {
     background-color: #00FF00;
 }
 
-h1 {
+.head {
+    font-weight: bold;
     text-align: center;
     font-size: 70px;
 }
 
-p {
+.fan-message {
+    color: blue;
+    font-style: oblique;
     text-align: center;
+    font-size: 40px;
+    margin: 0px;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;  
 }
 
 .grid-container {
