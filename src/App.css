@@ -5,6 +5,7 @@ body {
 .head {
   font-weight: bold;
   font-size: 70px;
+  margin-top: 0%;
 }
 
 .fan-message {
@@ -14,6 +15,7 @@ body {
   font-size: 40px;
   margin: 0px;
 }
+
 p{
   text-align: center;
   font-size: 40px;
@@ -22,10 +24,6 @@ p{
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row: 1;
 }
 
 .main {
@@ -41,4 +39,9 @@ p{
 .flop-right {
   grid-column: 3;
   grid-row: 1;
+}
+
+.kewlImage {
+  width: 374px;
+  height: 80%;
 }

@@ -15,14 +15,14 @@ function App() {
       </p>
       <div class="grid-container">
         <div class="main">
-          <img src="pictures/olof1.png" alt="Girl in a jacket" width="374" height="745"/>
-          <img src="pictures/olofsoy.jpg" alt="Girl in a jacket soy" width="374" height="745"/>
+          <img src="pictures/olof1.png" alt="Girl in a jacket" class="kewlImage"/>
+          <img src="pictures/olofsoy.jpg" alt="Girl in a jacket soy" class="kewlImage"/>
         </div>
         <div class="flop-left">
-          <img src="pictures/floppa.gif" alt="floppa" width="374" height="745"/>
+          <img src="pictures/floppa.gif" alt="floppa" class="kewlImage"/>
         </div>
         <div class="flop-right">
-          <img src="pictures/floppa.gif" alt="floppa" width="374" height="745"/>
+          <img src="pictures/floppa.gif" alt="floppa" class="kewlImage"/>
         </div>
       </div>
     </div>
