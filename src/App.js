@@ -5,12 +5,25 @@ const nonCursed = 'pictures/olof1.png'
 const cursed = 'pictures/olofcursed.jpg'
 const images = { nonCursed, cursed }
 const funnyVine = new Audio("https://cdn.discordapp.com/attachments/960962795447386112/1030514988399480933/vine-boom.mp3")
-
+var imgState = new Number()
 function App() {
   function teeHeHe(){
      funnyVine.play();
-     setSelected(images.cursed);
-  }
+     switch (imgState){
+      default:
+        setSelected(images.cursed);
+        imgState = 1;
+        break;
+      case 0:
+        setSelected(images.cursed);
+        imgState = 1;
+        break;
+      case 1:
+        setSelected(images.nonCursed);
+        imgState = 0;
+         }
+        }  
+  
 
   const [selected, setSelected] = useState(images.nonCursed)
 
