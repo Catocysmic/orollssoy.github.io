@@ -15,17 +15,7 @@ function App() {
   const [selected, setSelected] = useState(images.nonCursed)
 
   return (
-    <div className="App" >
-      <p class="head">Olof.Rollsby.Soy!</p>
-      <div class="fan-message">
-        <p>Olof Rollsby number one supper fan site!!!</p>
-        <p>H8rs gunna H8!!!</p>
-      </div>
-      <p>
-        <audio controls autoplay="autoplay">
-        <source src="audio/Mr Beast Outro Sound Effect.mp3" type="audio/mpeg"/>
-        </audio>
-      </p>
+    <div className="App">
       <div class="grid-container">
         <div class="main">
           <img src={selected} alt="Girl in a jacket" class="kewlImage" onClick={() => teeHeHe()} />

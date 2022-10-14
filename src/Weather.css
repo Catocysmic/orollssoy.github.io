@@ -1,0 +1,12 @@
+.olofWeather{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #ff3ec5;
+    height: 50%;
+    width: 20%;
+    clear: none;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    display: inline-block;
+}
