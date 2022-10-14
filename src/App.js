@@ -8,7 +8,8 @@ const funnyVine = new Audio("https://cdn.discordapp.com/attachments/960962795447
 var imgState = new Number()
 function App() {
   function teeHeHe(){
-     funnyVine.play();
+     const newAudio = funnyVine.cloneNode();
+     newAudio.play();
      switch (imgState){
       default:
         setSelected(images.cursed);
