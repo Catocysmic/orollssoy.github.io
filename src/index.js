@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Weather from './Weather'
 import Title from './Title';
+import Iss from './Iss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <div className='container'>
         <Weather />
         <Title />
+        <Iss />
     </div>
         <App />
   </React.StrictMode>
