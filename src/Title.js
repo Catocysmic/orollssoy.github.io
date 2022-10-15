@@ -4,7 +4,7 @@ const Title = () => {
     return (
         <div>
         <p class="head">Olof.Rollsby.Soy!</p>
-        <div class="fan-message">
+        <div className="fan-message">
           <p>Olof Rollsby number one supper fan site!!!</p>
           <p>H8rs gunna H8!!!</p>
         </div>
