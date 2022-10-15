@@ -42,6 +42,9 @@ function App() {
           <img src="pictures/floppa.gif" alt="floppa" class="kewlImage"/>
         </div>
       </div>
+        <div className="pozzed">
+            <img src="pictures/pozzed.gif" alt="pozzed" className="pozzedGif"/>
+        </div>
     </div>
   );
 }
