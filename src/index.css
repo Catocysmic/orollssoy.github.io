@@ -2,8 +2,30 @@ body {
   text-align: center;
   background-image:url('/public/pictures/matrix.gif');
   overflow: hidden;
+  cursor: url('/public/pictures/cursor/frame_0.gif'), auto;
 }
 
 .container {
   display: inline-flex;
+}
+* {
+  cursor: url('/public/pictures/cursor/frame_0.gif'), auto;
+  -webkit-animation: cursor 400ms infinite;
+  animation: cursor 400ms infinite;
+}
+
+@-webkit-keyframes cursor {
+  0% {cursor: url('/public/pictures/cursor/frame_0.gif'), auto;}
+  25% {cursor: url('/public/pictures/cursor/frame_1.gif'), auto;}
+  50% {cursor: url('/public/pictures/cursor/frame_2.gif'), auto;}
+  75% {cursor: url('/public/pictures/cursor/frame_3.gif'), auto;}
+  100% {cursor: url('/public/pictures/cursor/frame_4.gif'), auto;}
+} 
+
+@keyframes cursor {
+  0% {cursor: url('/public/pictures/cursor/frame_0.gif'), auto;}
+  25% {cursor: url('/public/pictures/cursor/frame_1.gif'), auto;}
+  50% {cursor: url('/public/pictures/cursor/frame_2.gif'), auto;}
+  75% {cursor: url('/public/pictures/cursor/frame_3.gif'), auto;}
+  100% {cursor: url('/public/pictures/cursor/frame_4.gif'), auto;}
 }
