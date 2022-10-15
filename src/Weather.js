@@ -7,7 +7,11 @@ const Weather = () => {
 
     useEffect(() => {
         async function fetchData(){
-            const response = await fetch('https://corsproxy.io/?http://api.weatherapi.com/v1/current.json?key=39b229ce72ef40b49d2214506221310&q=Stockholm&aqi=no')
+            const response = await fetch('https://proxy.cors.sh/http://api.weatherapi.com/v1/current.json?key=39b229ce72ef40b49d2214506221310&q=Stockholm&aqi=no', {
+                headers: {
+                  'x-cors-api-key': 'b9e14ff6-eeee-4a8e-ad97-1645a07c3799',
+                }
+            });
             const data = await response.json()
             console.log(data);
             setWeather(data);
