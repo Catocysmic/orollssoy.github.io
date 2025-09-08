@@ -10,10 +10,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='container'>
-        <Weather />
-        <Title />
-        <Iss />
+  <h1>
+  Come back soon
+  </h1>
     </div>
-        <App />
+        
   </React.StrictMode>
 );
